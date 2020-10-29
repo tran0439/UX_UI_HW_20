@@ -1,0 +1,28 @@
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left:35px;
+}
+
+.nav-link {
+  padding: .5rem 3rem;
+}
+
+.jumbo-tron {
+  
+}
+
+.col {
+  max-width: 100%;
+}
+
+.colContext {
+  padding-right: 170px;
+}
+
+.colProblem {
+  padding-right: 145px;
+}
