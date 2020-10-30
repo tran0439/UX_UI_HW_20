@@ -1,0 +1,105 @@
+    <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="./Images/sketch.png" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"></h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="./Images/sketch 2.png" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"></h3>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="./Images/sketch 3.png" alt="Third slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive"></h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <!--Mask color-->
+
+  .blog .carousel-indicators {
+	left: 230px;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 20px;
+    height: 0px;
+}
+
+/* .blog .carousel-indicators .active { */
+background: #707070;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.embed-responsive {
+  position: relative;
+  width: 365%;
+  overflow: hidden;
+}
+.sizer {
+  width: 300px;
+}
+
+.rowHighprototype {display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left:120px;
+}
+
+.columnVideo {float: left;
+  width: 33.33%;
+  padding: 5px;
+  right: auto;
+
+}
+
+.carousel-indicators {
+  position: absolute;
+  z-index: 15;
+}
