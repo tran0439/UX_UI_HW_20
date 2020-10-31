@@ -67,4 +67,22 @@ background: #707070;
   width: 300px;
 }
 
-.rowHighprototype 
+.rowHighprototype {display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left:120px;
+}
+
+.columnVideo {float: left;
+  width: 33.33%;
+  padding: 5px;
+  right: auto;
+
+}
+
+.carousel-indicators {
+  position: absolute;
+  z-index: 15;
+}
